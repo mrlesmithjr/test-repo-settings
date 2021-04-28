@@ -4,6 +4,6 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-  steps:
-    - name: Test
-      run: echo ${{ secrets.EXAMPLE }}
+    steps:
+      - name: Test
+        run: echo ${{ secrets.EXAMPLE }}
